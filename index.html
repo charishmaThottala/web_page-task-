@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="viewport" width="device-width , intial-scale=1.0">
+        <title>Task-1</title>
+
+        <style>
+           body{
+            background-color:whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+           }
+           .container{
+            display: grid;
+            gap:10px;
+            background-color:white;
+            grid-template-rows:30px 250px 250px;
+            grid-template-columns: 300px 300px;
+
+           }
+           .courses_offer{
+            background-color: white;
+            text-align:center;
+            color:black;
+            border:2px solid black ;
+           }
+           .head{
+            grid-area:1/1/2/3;
+            font-size: 30px;
+           }
+           p{
+            font-size:large;
+            font-weight: bold;
+           }
+           .button{
+            background-color: lightblue;
+            height:30px;
+           }
+        </style>
+
+    </head>
+    <body>
+       <div class="container">
+           <div class="head">INTERNSHIPS</div> 
+           <div class="courses_offer">
+            <div><p>Web Development<br>
+            Internship Program</p></div>
+            <div><ul>
+            <li>Duration :1 month/2months</li>
+            <li>Location : Virtual</li>
+            <li>stipend: -</li>
+            <li>Start due: 07/03/2025</li>
+        </ul>
+            </div><div>
+                  <button class="button"><a href="./web_dev.html">View Details</a></button>
+            </div>
+           </div>
+           <div class="courses_offer">
+            <div><p>App Development<br>
+            Internship Program</p></div>
+            <div><ul>
+            <li>Duration :1 month/2months</li>
+            <li>Location : Virtual</li>
+            <li>stipend: -</li>
+            <li>Start due: 07/03/2025</li>
+        </ul>
+            </div><div>
+                 <button class="button"><a href="./app.html">View Details</a></button>
+            </div>
+           </div>
+           <div class="courses_offer">
+             <div><p>Python Programming<br>
+            Internship Program</p></div>
+            <div><ul>
+            <li>Duration :1 month/2months</li>
+            <li>Location : Virtual</li>
+            <li>stipend: -</li>
+            <li>Start due: 07/03/2025</li>
+        </ul>
+            </div><div>
+                 <button class="button"><a href="./python.html">View Details</a></button>
+            </div>
+           </div>
+           <div class="courses_offer">
+             <div><p>Java Programming<br>
+            Internship Program</p></div>
+            <div><ul>
+            <li>Duration :1 month/2months</li>
+            <li>Location : Virtual</li>
+            <li>stipend: -</li>
+            <li>Start due: 07/03/2025</li>
+        </ul>
+            </div><div>
+                  <button class="button"><a href="./java.html">View Details</a></button>
+            </div>
+           </div>
+       </div>
+    </body>
+</html>
